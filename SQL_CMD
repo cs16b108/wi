@@ -1,0 +1,8 @@
+
+CREATE DATABASE acc;
+use acc;
+CREATE TABLE login (
+  name varchar(20) NOT NULL,
+  pwd varchar(20) NOT NULL,
+  PRIMARY KEY (name)
+) ;
